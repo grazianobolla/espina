@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-	--page-width: 700px;
+	--page-width: 900px;
 	--page-background: hsl(0, 0%, 10%);
 	--primary-color: hsl(0, 0%, 7%);
 	--font-color: hsl(60, 10%, 85%);
@@ -88,7 +88,8 @@ td {
 h1.title,
 h2.title,
 h3.title,
-h4.title {
+h4.title,
+h5.title {
 	margin: 0;
 	padding: 0;
 }
@@ -107,7 +108,7 @@ a {
 }
 
 a:hover {
-	color: var(--hyperlink-color);
+	color: inherit;
 	text-decoration: underline;
 }
 
@@ -131,6 +132,10 @@ strong {
 
 .text-muted {
 	color: var(--font-muted-color) !important;
+}
+
+.headline {
+	color: var(--title-color);
 }
 
 /* Navbar */
@@ -224,9 +229,4 @@ img.nav-svg-icon {
 .sidebar {
 	padding-top: 106px;
 	margin-top: -106px;
-}
-
-/*Page*/
-.page h1 {
-	color: var(--title-color);
 }

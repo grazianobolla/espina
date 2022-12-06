@@ -9,9 +9,9 @@
 	<?php endif ?>
 
 	<!-- Title -->
-	<h1 class="title">
+	<h2 class="title headline">
 		<?php echo $page->title(); ?>
-	</h1>
+	</h2>
 
 	<?php if (!$page->isStatic() && !$url->notFound()): ?>
 	<!-- Creation date -->

@@ -1,9 +1,9 @@
 <li class="post">
     <div class="d-md-flex justify-content-between align-items-center">
-        <a class="head" href="<?php echo $page->permalink(); ?>">
-            <p class="h5 m-0 p-0">
+        <a href="<?php echo $page->permalink(); ?>">
+            <h5 class="title headline">
                 <?php echo $page->title(); ?>
-            </p>
+            </h5>
         </a>
 
         <p class="text-muted date">
