@@ -27,12 +27,6 @@ body {
 	color: var(--font-color);
 }
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
 section {
 	padding: 150px 0;
 }
@@ -184,6 +178,8 @@ img.nav-svg-icon {
 
 .plugin ul {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 /* Cover image*/
@@ -223,6 +219,12 @@ img.nav-svg-icon {
 
 .pag-link.disabled {
 	pointer-events: none;
+}
+
+.post-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 /* Sidebar */
