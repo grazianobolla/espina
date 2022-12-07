@@ -17,5 +17,8 @@
 <!-- Include CSS Styles from this theme -->
 <?php echo Theme::css('css/style.css'); ?>
 
+<!-- Include FA icons -->
+<?php echo Theme::css('css/font-awesome.min.css'); ?>
+
 <!-- Load Bludit Plugins: Site head -->
 <?php Theme::plugins('siteHead'); ?>

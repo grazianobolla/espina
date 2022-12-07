@@ -3,12 +3,15 @@
 :root {
 	--page-width: 900px;
 	--page-background: hsl(0, 0%, 10%);
-	--primary-color: hsl(0, 0%, 7%);
+
+	--navbar-color: hsl(0, 0%, 7%);
+
 	--font-color: hsl(60, 10%, 85%);
 	--font-muted-color: hsl(60, 1%, 60%);
-	--separator-color: hsl(0, 0%, 15%);
 	--hyperlink-color: #87a7e2;
-	--title-color: #ffee8b;
+
+	--separator-color: hsl(0, 0%, 15%);
+	--primary-color: #ffee8b;
 }
 
 html {
@@ -95,19 +98,18 @@ blockquote {
 	font-style: italic;
 }
 
+
+strong {
+	color: #fff;
+}
+
 a {
 	color: var(--hyperlink-color);
-	margin: 0;
-	padding: 0;
+	text-decoration: none !important;
 }
 
 a:hover {
 	color: inherit;
-	text-decoration: underline;
-}
-
-strong {
-	color: #fff;
 }
 
 /*Classes*/
@@ -129,16 +131,12 @@ strong {
 }
 
 .headline {
-	color: var(--title-color);
+	color: var(--primary-color);
 }
 
 /* Navbar */
 .navbar {
-	background-color: var(--primary-color);
-}
-
-.navbar .slogan {
-	font-size: 0.8em;
+	background-color: var(--navbar-color);
 }
 
 .navbar-brand {
@@ -147,19 +145,12 @@ strong {
 	gap: 6px;
 }
 
-img.nav-svg-icon {
-	width: 1.3rem;
-	height: 1.3rem;
-	padding-bottom: 2px;
-}
-
-.nav-link {
+.navbar-brand .slogan {
 	font-size: 0.8em;
 }
 
-.mini-logo {
-	height: 22px;
-	padding-bottom: 5px;
+.nav-link {
+	font-size: 1em;
 }
 
 .navbar-toggler {
@@ -197,7 +188,7 @@ img.nav-svg-icon {
 }
 
 .post .head {
-	color: var(--title-color);
+	color: var(--primary-color);
 }
 
 .post .badge {
@@ -210,6 +201,10 @@ img.nav-svg-icon {
 .post .date {
 	font-size: 0.8rem;
 	margin: 0;
+}
+
+.post .pin {
+	margin: 0 8px;
 }
 
 /*Homepage*/
@@ -231,4 +226,9 @@ img.nav-svg-icon {
 .sidebar {
 	padding-top: 106px;
 	margin-top: -106px;
+}
+
+/*Welcome*/
+.welcome {
+	text-align: center;
 }

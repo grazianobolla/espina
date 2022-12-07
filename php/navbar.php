@@ -19,8 +19,7 @@
 				<?php foreach (Theme::socialNetworks() as $key => $label): ?>
 				<li class="nav-item">
 					<a class="nav-link" href="<?php echo $site->{$key}(); ?>" target="_blank">
-						<img class="d-none d-sm-block nav-svg-icon"
-							src="<?php echo DOMAIN_THEME . 'img/' . $key . '.svg' ?>" alt="<?php echo $label ?>" />
+						<i class="fa fa-<?php echo $key ?> fa-lg" aria-hidden="true"></i>
 						<span class="d-inline d-sm-none">
 							<?php echo $label; ?>
 						</span>

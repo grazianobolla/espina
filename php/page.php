@@ -1,5 +1,5 @@
+<!-- Page -->
 <div class="page">
-	<!-- Post -->
 	<!-- Load Bludit Plugins: Page Begin -->
 	<?php Theme::plugins('pageBegin'); ?>
 
