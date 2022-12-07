@@ -18,9 +18,9 @@
 				<!-- Social Networks -->
 				<?php foreach (Theme::socialNetworks() as $key => $label): ?>
 				<li class="nav-item">
-					<a class="nav-link" href="<?php echo $site->{$key}(); ?>" target="_blank">
+					<a class="nav-link d-flex align-items-center" href="<?php echo $site->{$key}(); ?>" target="_blank">
 						<i class="fa fa-<?php echo $key ?> fa-lg" aria-hidden="true"></i>
-						<span class="d-inline d-sm-none">
+						<span class="d-inline d-md-none">
 							<?php echo $label; ?>
 						</span>
 					</a>
