@@ -20,11 +20,6 @@
         </p>
     </div>
 
-    <!-- Cover image -->
-    <?php if ($page->coverImage()): ?>
-    <img class="cover" style="height: 70px" alt="Cover Image" src="<?php echo $page->coverImage(); ?>" />
-    <?php endif ?>
-
     <!-- Decription -->
     <p class="text-muted m-0">
         <?php echo $page->description(); ?>
