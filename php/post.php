@@ -7,19 +7,15 @@
 <li class="post">
     <!-- Title and time -->
     <div class="d-md-flex justify-content-between align-items-center">
-        <div class="d-flex align-items-center">
-            <!-- Title hyperlink -->
-            <a href="<?php echo $page->permalink(); ?>">
-                <h5 class="title headline">
-                    <?php echo $page->title(); ?>
-                </h5>
-            </a>
+        <!-- Title hyperlink -->
+        <a href="<?php echo $page->permalink(); ?>">
+            <h5 class="title headline">
+                <?php echo $page->title(); ?>
+                <?php include(THEME_DIR_PHP . 'indicators.php'); ?>
+            </h5>
+        </a>
 
-            <!-- Pin icon if the page is sticky -->
-            <?php if ($page->sticky()): ?>
-            <i class="fa fa-thumb-tack text-muted pin" aria-hidden="true"></i>
-            <?php endif ?>
-        </div>
+        <!-- Date -->
         <p class="text-muted date">
             <?php echo $page->relativeTime(); ?>
         </p>

@@ -1,5 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top">
 	<div class="container" id="main-container">
+		<!-- Name and slogan -->
 		<a class="navbar-brand" href="<?php echo Theme::siteUrl() ?>">
 			<span class="text-white">
 				<?php echo $site->title() ?>
@@ -9,10 +10,14 @@
 				<?php echo $site->slogan() ?>
 			</span>
 		</a>
+
+		<!-- Toggler button -->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
 			aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
+
+		<!-- Social media buttons/collaspe -->
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 				<!-- Social Networks -->
@@ -26,7 +31,6 @@
 					</a>
 				</li>
 				<?php endforeach; ?>
-
 			</ul>
 		</div>
 	</div>

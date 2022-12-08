@@ -11,6 +11,9 @@
 	<!-- Title -->
 	<h2 class="title headline">
 		<?php echo $page->title(); ?>
+
+		<!-- Title icons -->
+		<?php include(THEME_DIR_PHP . 'indicators.php'); ?>
 	</h2>
 
 	<?php if (!$page->isStatic() && !$url->notFound()): ?>
