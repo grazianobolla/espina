@@ -5,9 +5,9 @@
 <?php endif ?>
 
 <ul class="post-list">
-	<?php foreach ($content as $page): ?>
-	<?php include(THEME_DIR_PHP . 'post.php'); ?>
-	<?php endforeach ?>
+	<?php foreach ($content as $page)
+	    include(THEME_DIR_PHP . 'post.php');
+    ?>
 </ul>
 
 <!-- Pagination -->

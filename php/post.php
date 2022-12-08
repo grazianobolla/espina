@@ -1,3 +1,8 @@
+<!-- Do not render post if it is archived -->
+<?php if ($page->category() == "Archive")
+    return;
+?>
+
 <!-- Homepage post -->
 <li class="post">
     <!-- Title and time -->
