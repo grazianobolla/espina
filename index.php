@@ -17,10 +17,13 @@
 		<div class="row">
 			<div class="col-md-8">
 				<?php
-                if ($WHERE_AM_I == 'page') {
-	                include(THEME_DIR_PHP . 'page.php');
-                } else {
-	                include(THEME_DIR_PHP . 'home.php');
+                switch ($WHERE_AM_I) {
+	                case 'page':
+		                include(THEME_DIR_PHP . 'page.php');
+		                break;
+	                default:
+		                include(THEME_DIR_PHP . 'list.php');
+		                break;
                 }
                 ?>
 			</div>
@@ -43,7 +46,6 @@
 
 		<!-- Load Bludit Plugins: Site Body End -->
 		<?php Theme::plugins('siteBodyEnd'); ?>
-
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 <!-- Do not render post if it is archived -->
-<?php if ($page->category() == "Archive")
+<?php if ($page->category() == 'Archive' && $WHERE_AM_I != 'category')
     return;
 ?>
 

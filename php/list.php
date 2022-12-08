@@ -4,6 +4,7 @@
 </div>
 <?php endif ?>
 
+<!-- Post list -->
 <ul class="post-list">
 	<?php foreach ($content as $page)
 	    include(THEME_DIR_PHP . 'post.php');
