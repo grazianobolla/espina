@@ -22,7 +22,7 @@
 		                include(THEME_DIR_PHP . 'page.php');
 		                break;
 	                default:
-		                include(THEME_DIR_PHP . 'list.php');
+		                include(THEME_DIR_PHP . 'home.php');
 		                break;
                 }
                 ?>

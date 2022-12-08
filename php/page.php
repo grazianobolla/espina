@@ -19,7 +19,8 @@
 	<?php if (!$page->isStatic() && !$url->notFound()): ?>
 	<!-- Creation date -->
 	<h6 class="text-muted mb-3">
-		<?php echo $page->date(); ?>
+		<?php echo $page->date(); ?> ~
+		<?php echo $page->relativeTime(); ?>
 	</h6>
 	<?php endif ?>
 

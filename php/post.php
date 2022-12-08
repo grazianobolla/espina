@@ -11,6 +11,8 @@
         <a href="<?php echo $page->permalink(); ?>">
             <h5 class="title headline">
                 <?php echo $page->title(); ?>
+
+                <!-- Title icons -->
                 <?php include(THEME_DIR_PHP . 'indicators.php'); ?>
             </h5>
         </a>
