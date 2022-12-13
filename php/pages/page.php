@@ -1,3 +1,6 @@
+<!-- Run syntax highlighting -->
+<script>hljs.highlightAll();</script>
+
 <!-- Load Bludit Plugins: Page Begin -->
 <?php Theme::plugins('pageBegin'); ?>
 

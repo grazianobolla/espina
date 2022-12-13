@@ -40,13 +40,7 @@ img {
 
 pre,
 code {
-	background: #f8f8f8;
 	color: #333;
-}
-
-pre {
-	border-left: 2px solid #ccc;
-	padding: 10px;
 }
 
 code {
