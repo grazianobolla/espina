@@ -19,7 +19,14 @@
 
 		<!-- Social media buttons/collaspe -->
 		<div class="collapse navbar-collapse" id="navbarResponsive">
-			<ul class="navbar-nav ml-auto">
+			<ul class="navbar-nav ml-auto align-items-center">
+				<!-- Static pages -->
+				<?php foreach ($staticContent as $staticPage): ?>
+				<li class="nav-item">
+					<a class="nav-link" href="<?php echo $staticPage->permalink() ?>"><?php echo $staticPage->title() ?></a>
+				</li>
+				<?php endforeach ?>
+
 				<!-- Social Networks -->
 				<?php foreach (Theme::socialNetworks() as $key => $label): ?>
 				<li class="nav-item">

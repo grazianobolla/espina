@@ -9,12 +9,12 @@
 	<?php endif ?>
 
 	<!-- Title -->
-	<h2 class="title headline">
+	<h1 class="title text-primary h3">
 		<?php echo $page->title(); ?>
 
 		<!-- Title icons -->
 		<?php include(THEME_DIR_PHP . 'indicators.php'); ?>
-	</h2>
+	</h1>
 
 	<?php if (!$page->isStatic() && !$url->notFound()): ?>
 	<!-- Creation date -->
@@ -26,7 +26,6 @@
 
 	<!-- Full content -->
 	<?php echo $page->content(); ?>
-
 
 	<!-- Load Bludit Plugins: Page End -->
 	<?php Theme::plugins('pageEnd'); ?>

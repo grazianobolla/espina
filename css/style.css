@@ -8,6 +8,7 @@
 
 	--font-color: hsl(60, 10%, 85%);
 	--font-muted-color: hsl(60, 1%, 60%);
+	--font-darker-color: hsl(60, 1%, 75%);
 	--hyperlink-color: #87a7e2;
 
 	--separator-color: hsl(0, 0%, 15%);
@@ -129,8 +130,12 @@ a:hover {
 	color: var(--font-muted-color) !important;
 }
 
-.headline {
-	color: var(--primary-color);
+.text-primary {
+	color: var(--primary-color) !important;
+}
+
+.text-darker {
+	color: var(--font-darker-color);
 }
 
 /* Navbar */
@@ -203,7 +208,7 @@ a:hover {
 	margin: 0;
 }
 
-/*Homepage*/
+/*Post list*/
 .pag .pag-link {
 	margin-right: 8px;
 }

@@ -9,7 +9,7 @@
     <div class="d-md-flex justify-content-between align-items-center">
         <!-- Title hyperlink -->
         <a href="<?php echo $page->permalink(); ?>">
-            <h5 class="title headline">
+            <h5 class="title text-primary">
                 <?php echo $page->title(); ?>
 
                 <!-- Title icons -->
@@ -24,7 +24,7 @@
     </div>
 
     <!-- Decription -->
-    <p class="text-muted m-0">
+    <p class="text-darker m-0">
         <?php echo $page->description(); ?>
     </p>
 

@@ -19,11 +19,14 @@
 				<?php
                 switch ($WHERE_AM_I) {
 	                case 'page':
-		                include(THEME_DIR_PHP . 'page.php');
+		                include(THEME_DIR_PHP . 'pages/page.php');
 		                break;
+					case 'category':
+						include(THEME_DIR_PHP . 'pages/category.php');
+						break;
 	                default:
-		                include(THEME_DIR_PHP . 'home.php');
-		                break;
+						include(THEME_DIR_PHP . 'pages/home.php');
+						break;
                 }
                 ?>
 			</div>
