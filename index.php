@@ -33,7 +33,7 @@
 
         // Include javascript Bootstrap file from Bludit Core
         echo Theme::jsBootstrap();
-        ?>
+		?>
 
 		<!-- Load Bludit Plugins: Site Body End -->
 		<?php Theme::plugins('siteBodyEnd'); ?>
