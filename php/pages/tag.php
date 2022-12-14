@@ -10,7 +10,7 @@ $tag = new Tag($tagKey);
 <!-- Tag info -->
 <div class="mb-3">
     <p class="m-0 h2">Filtering by tag: <?php echo $tag->name(); ?></p>
-    <p class="m-0 text-muted">Only showing posts that cointain the tag</p>
+    <p class="m-0 text-muted">Only showing posts that cointain the selected tag</p>
 </div>
 
 <!-- Post list -->
