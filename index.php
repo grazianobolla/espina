@@ -16,19 +16,7 @@
 	<div class="container my-5" id="main-container">
 		<div class="row">
 			<div class="col-md-8">
-				<?php
-                switch ($WHERE_AM_I) {
-	                case 'page':
-		                include(THEME_DIR_PHP . 'pages/page.php');
-		                break;
-					case 'category':
-						include(THEME_DIR_PHP . 'pages/category.php');
-						break;
-	                default:
-						include(THEME_DIR_PHP . 'pages/home.php');
-						break;
-                }
-                ?>
+				<?php include(THEME_DIR_PHP . 'pages/' . $WHERE_AM_I . '.php'); ?>
 			</div>
 
 			<div class="col-md-4 d-none d-md-block">

@@ -8,9 +8,9 @@ $category = new Category($categoryKey);
 ?>
 
 <!-- Category info -->
-<div>
+<div class="mb-3">
     <p class="m-0 h2">Showing posts in: <?php echo $category->name(); ?></p>
-    <p class="m-0 mb-3 text-muted"><?php echo $category->description(); ?></p>
+    <p class="m-0 text-muted"><?php echo $category->description(); ?></p>
 </div>
 
 <!-- Post list -->
