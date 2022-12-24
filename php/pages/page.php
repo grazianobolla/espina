@@ -1,6 +1,3 @@
-<!-- Run syntax highlighting -->
-<script>hljs.highlightAll();</script>
-
 <!-- Load Bludit Plugins: Page Begin -->
 <?php Theme::plugins('pageBegin'); ?>
 
@@ -12,8 +9,6 @@
 <!-- Title -->
 <h1 class="title text-primary h3">
 	<?php echo $page->title(); ?>
-
-	<!-- Title icons -->
 	<?php include(THEME_DIR_PHP . 'indicators.php'); ?>
 </h1>
 
@@ -29,5 +24,9 @@
 <div class="mt-3">
 	<?php echo $page->content(); ?>
 </div>
+
 <!-- Load Bludit Plugins: Page End -->
 <?php Theme::plugins('pageEnd'); ?>
+
+<!-- Run syntax highlighting -->
+<script>hljs.highlightAll();</script>

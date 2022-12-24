@@ -15,7 +15,7 @@
 	<!-- Content -->
 	<div class="container my-5" id="main-container">
 		<div class="row">
-			<div class="col-md-8">
+		<div class="col-md-8">
 				<?php include(THEME_DIR_PHP . 'pages/' . $WHERE_AM_I . '.php'); ?>
 			</div>
 
@@ -25,18 +25,19 @@
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<!-- Javascript -->
-		<?php
-        // Include Jquery file from Bludit Core
-        echo Theme::jquery();
+	<!-- Javascript -->
+	<?php
+	// Include Jquery file from Bludit Core
+	echo Theme::jquery();
 
-        // Include javascript Bootstrap file from Bludit Core
-        echo Theme::jsBootstrap();
-		?>
+	// Include javascript Bootstrap file from Bludit Core
+	echo Theme::jsBootstrap();
+	?>
 
-		<!-- Load Bludit Plugins: Site Body End -->
-		<?php Theme::plugins('siteBodyEnd'); ?>
+	<!-- Load Bludit Plugins: Site Body End -->
+	<?php Theme::plugins('siteBodyEnd'); ?>
 </body>
 
 </html>
