@@ -38,12 +38,12 @@ img {
 	max-width: 100%;
 }
 
-pre,
-code {
-	color: #333;
+p code {
+	color: #c73fc0;
+	background-color: hsl(305, 16%, 15%);
 }
 
-code {
+pre code {
 	display: inline-block;
 	padding: 0 0.5em;
 	line-height: 1.4em;

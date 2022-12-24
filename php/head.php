@@ -23,6 +23,7 @@
 <!-- Highlightjs style and script -->
 <?php echo Theme::css('css/a11y-dark.min.css'); ?>
 <?php echo Theme::js('js/highlight.min.js'); ?>
+<?php echo Theme::js('js/gdscript.min.js'); ?>
 
 <!-- Load Bludit Plugins: Site head -->
 <?php Theme::plugins('siteHead'); ?>
