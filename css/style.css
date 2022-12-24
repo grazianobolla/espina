@@ -39,8 +39,9 @@ img {
 }
 
 p code {
-	color: #c73fc0;
+	color: hsl(303, 30%, 50%);
 	background-color: hsl(305, 16%, 15%);
+	padding: 0 3px;
 }
 
 pre code {
